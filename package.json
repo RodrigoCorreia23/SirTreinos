@@ -1,0 +1,31 @@
+{
+  "name": "project-assignment-3-28968",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/clSRtobH)\r [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17600892)\r # Objetivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:backend": "cd backend && node server.js",
+    "dev:backend": "cd backend && nodemon server.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "svelte-routing": "^2.13.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "rollup": "^4.31.0"
+  }
+}
